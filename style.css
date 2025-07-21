@@ -399,9 +399,6 @@ header .content #hero {
   margin-left: 8px;
   vertical-align: middle;
 }
-#line {
-line-height:1.6;
-}
 #skills {
   background-color: var(--primary);
 }
