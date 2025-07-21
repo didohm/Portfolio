@@ -149,10 +149,27 @@ header .content {
 header .content img {
   max-width: 400px;
   border-radius: 50%;
+  padding: 4px;
+  background: linear-gradient(90deg, #00cfff, #002b5c);
   transition: all 1s ease;
+  background-size: 200% 200%;
+  animation: gradientMove 2s ease infinite;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 207, 255, 0.4);
 }
 header .content img:hover {
   transform: scale(0.85);
+  box-shadow: 4px 4px 20px rgba(0, 207, 255, 0.6);
+}
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .text-primary {
   color: var(--secondary);
@@ -335,10 +352,30 @@ header .content #hero {
 }
 #about .about-content .col1 h3 {
   font-size: 28px;
-  background: linear-gradient(to right, var(--gray), var(--secondary));
+  background: linear-gradient(
+    270deg,
+    var(--gray),
+    var(--secondary),
+    var(--gray)
+  );
+  background-size: 200% auto;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: textGradientMove 2.7s ease infinite;
   margin-bottom: 20px;
+}
+
+@keyframes textGradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 #about .about-content .col1 p {
   color: var(--gray);
@@ -356,6 +393,11 @@ header .content #hero {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+#esgen {
+  width: 23px;
+  margin-left: 8px;
+  vertical-align: middle;
 }
 #skills {
   background-color: var(--primary);
