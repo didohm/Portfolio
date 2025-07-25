@@ -40,7 +40,6 @@ a {
 .circle {
   width: 50px;
   height: 50px;
-  transition: all 0.8s ease;
   border-radius: 50%;
   background: #00f4ab;
   top: 350px;
@@ -52,7 +51,6 @@ a {
 .square {
   width: 60px;
   height: 60px;
-  transition: all 0.8s ease;
   background: #3399ff;
   top: 400px;
   left: 600px;
@@ -63,7 +61,6 @@ a {
 .triangle {
   width: 0;
   height: 0;
-  transition: all 0.8s ease;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
   border-bottom: 50px solid #002b5c;
@@ -81,10 +78,6 @@ a {
   50% {
     transform: translateY(-20px) rotate(10deg);
   }
-}
-.square:hover,.trianlge:hover,.circle:hover {
-  transform: scale(0.8);
-  transform: translateY(5px);
 }
 header {
   background-color: var(--bg);
