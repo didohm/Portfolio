@@ -1,0 +1,12 @@
+# Boumedien Himich – Portfolio
+
+> 👋 Hi! I'm Boumedien, a student at The Higher School of Management and Digital Economy with a strong interest in Generative AI, marketing, and web development.
+
+## 📘 Docs
+- [🏠 Home](https://himichboumedien.vercel.app/)
+- [📄 About Me](https://himichboumedien.vercel.app/#about)
+- [💼 Services](https://himichboumedien.vercel.app/#services)
+
+## 🌐 Profiles
+- [🔗 LinkedIn](https://www.linkedin.com/in/boumedien-himich-62a264371/)
+- [💻 GitHub](https://github.com/didohm/)
