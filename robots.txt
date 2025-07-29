@@ -1,7 +1,7 @@
-User-agent: *
-Allow: /
-
 User-agent: Googlebot-Image
 Disallow: /preview.jpg
+
+User-agent: *
+Allow: /
 
 Sitemap: https://himichboumedien.vercel.app/sitemap.xml
