@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Contact: boumedienhimich_etd@esgen.edu.dz
+Policy: https://himichboumedien.vercel.app/ai-policy.html
