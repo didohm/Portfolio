@@ -36,8 +36,13 @@ a {
   border: none;
   background-color: var(--secondary);
   border-radius: 50%;
-  display: none;
-  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+#btn-3.show {
+  opacity: 1;       
+  visibility: visible; 
 }
 #btn-3:hover{
   background-color: var(--primary);
