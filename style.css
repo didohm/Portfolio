@@ -149,10 +149,6 @@ header .navbar nav ul li .links:hover {
 #logo {
   object-fit: cover;
   width: 55px;
-  transition: all 0.8s ease;
-}
-#logo:hover {
-  transform: scale(0.8);
 }
 header .content {
   display: grid;
@@ -206,10 +202,6 @@ header .content #hero {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: cover;
-  transition: all 0.5s ease;
-}
-#hero:hover {
-  transform: scale(0.9);
 }
 .name span {
   display: inline-block;
@@ -509,10 +501,6 @@ header .content #hero {
 }
 #contact .form img {
   max-width: 400px;
-  transition: all 0.5s ease;
-}
-#contact .form img:hover {
-  transform: scale(0.9);
 }
 #contact .form input,
 #contact .form textarea {
@@ -693,6 +681,7 @@ header .content #hero {
     left: 180px;
   }
 }
+
 
 
 
