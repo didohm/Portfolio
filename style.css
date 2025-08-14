@@ -551,8 +551,6 @@ header .content #hero {
 }
 @media (max-width: 767px) {
   #btn-3{
-  height: 30px;
-  width: 30px;
   right: 20px;
   bottom: 20px;
 }
@@ -695,4 +693,5 @@ header .content #hero {
     left: 180px;
   }
 }
+
 
