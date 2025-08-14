@@ -139,7 +139,7 @@
               class="btn1"
               >Download CV <i class="fa-solid fa-circle-arrow-down"></i
             ></a>
-            <a class="btn1" href="#Name">Call Me <i class="fa-solid fa-phone"></i></a>
+            <a class="btn1" href="#contact">Call Me <i class="fa-solid fa-phone"></i></a>
           </div>
         </div>
         <img src="Assets/photo.jpg" alt="Himich Boumedien" />
@@ -364,9 +364,9 @@ document.querySelectorAll("#nav-links a").forEach(link => {
 const btn3 = document.getElementById("btn-3");
 window.onscroll = function(){
   if (scrollY>=400){
-    btn3.style.display="block";}
+    btn3.classList.add("show");}
     else{
-      btn3.style.display="none";
+      btn3.classList.remove("show");
     }
   }
 btn3.onclick = function(){
