@@ -358,7 +358,11 @@ document.querySelectorAll("#nav-links a").forEach(link => {
     navLinks.classList.remove("show");
   });
 });
+      document.addEventListener('contextmenu', function(event){ 
+  event.preventDefault();
+});
     </script>
   </body>
 </html>
+
 
