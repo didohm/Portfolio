@@ -60,7 +60,7 @@ a {
   height: 50px;
   border-radius: 50%;
   background: #00f4ab;
-  top: 350px;
+  top: 330px;
   left: 50px;
   animation-delay: 0s;
 }
@@ -69,10 +69,10 @@ a {
 .square {
   width: 60px;
   height: 60px;
-  background: #3399ff;
-  top: 400px;
+  background: #4682b4;
+  top: 370px;
   left: 600px;
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 
 /* المثلث */
@@ -315,11 +315,12 @@ header .content #hero {
 .btn1 {
   background-color: var(--secondary);
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 15px;
+  margin-right: 10px;
   font-size: 14px;
   border: none;
   cursor: pointer;
-  border-radius: 35px;
+  border-radius: 10px;
   transition: all 0.3s ease;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
@@ -618,6 +619,7 @@ header .content #hero {
     display: flex; 
   }
   
+  
 }
 @media (max-width: 528px) {
   
@@ -664,27 +666,19 @@ header .content #hero {
   .col2 {
     font-size: 15px;
   }
-  .btn {
-    margin-top: 0.5rem;
-  }
+  
   #logo {
     width: 50px;
   }
   .circle {
-    top: 550px;
+    top: 530px;
     left: 30px;
   }
   .square {
-    top: 450px;
+    top: 350px;
   }
   .triangle {
-    top: 200px;
+    top: 180px;
     left: 180px;
   }
 }
-
-
-
-
-
-
