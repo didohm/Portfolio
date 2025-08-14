@@ -551,7 +551,7 @@ header .content #hero {
 }
 @media (max-width: 767px) {
   #btn-3{
-  right: 20px;
+  right: 18px;
   bottom: 20px;
 }
   #home .navbar nav {
@@ -693,5 +693,6 @@ header .content #hero {
     left: 180px;
   }
 }
+
 
 
