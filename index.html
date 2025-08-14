@@ -79,6 +79,7 @@
     <meta name="theme-color" content="#0f172a" />
   </head>
   <body>
+    <button id="btn-3"><i class="fa-solid fa-arrow-up"></i></button>
     <header id="home">
       <div class="navbar">
         <nav>
@@ -352,17 +353,26 @@ hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("show");
 });
 
-
+document.addEventListener('contextmenu', event => event.preventDefault());
 document.querySelectorAll("#nav-links a").forEach(link => {
   link.addEventListener("click", () => {
     navLinks.classList.remove("show");
   });
 });
-      document.addEventListener('contextmenu', function(event){ 
-  event.preventDefault();
-});
+
+const btn3 = document.getElementById("btn-3");
+window.onscroll = function(){
+  if (scrollY>=400){
+    btn3.style.display="block";}
+    else{
+      btn3.style.display="none";
+    }
+  }
+btn3.onclick = function(){
+  scroll({
+    left:0,top:0,behavior:"smooth"
+  })
+}
     </script>
   </body>
 </html>
-
-
