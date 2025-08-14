@@ -618,7 +618,7 @@ header .content #hero {
     gap: 10px;
     background-color: #fff;
     position: absolute;
-    top:48px;
+    top: 45px;
     right: 20px;
     width: 160px;
     padding: 10px;
@@ -693,6 +693,7 @@ header .content #hero {
     left: 180px;
   }
 }
+
 
 
 
