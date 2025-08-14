@@ -26,6 +26,23 @@ ul {
 a {
   text-decoration: none;
 }
+#btn-3{
+  height: 40px;
+  width: 40px;
+  font-size: 16px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  border: none;
+  background-color: var(--secondary);
+  border-radius: 50%;
+  display: none;
+  transition: all 0.3s ease;
+}
+#btn-3:hover{
+  background-color: var(--primary);
+  color: #fff;
+}
 .container {
   max-width: 1100px;
   margin: auto;
@@ -132,6 +149,10 @@ header .navbar nav ul li .links:hover {
 #logo {
   object-fit: cover;
   width: 55px;
+  transition: all 0.8s ease;
+}
+#logo:hover {
+  transform: scale(0.8);
 }
 header .content {
   display: grid;
@@ -488,6 +509,10 @@ header .content #hero {
 }
 #contact .form img {
   max-width: 400px;
+  transition: all 0.5s ease;
+}
+#contact .form img:hover {
+  transform: scale(0.9);
 }
 #contact .form input,
 #contact .form textarea {
@@ -525,6 +550,11 @@ header .content #hero {
   cursor: pointer;
 }
 @media (max-width: 767px) {
+  #btn-3{
+  height: 30px;
+  width: 30px;
+  right: 12px;
+}
   #home .navbar nav {
     display: block;
     padding: 1rem 2rem;
@@ -664,4 +694,3 @@ header .content #hero {
     left: 180px;
   }
 }
-
