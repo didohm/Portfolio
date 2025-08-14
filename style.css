@@ -553,7 +553,8 @@ header .content #hero {
   #btn-3{
   height: 30px;
   width: 30px;
-  right: 12px;
+  right: 20px;
+  bottom: 20px;
 }
   #home .navbar nav {
     display: block;
@@ -694,3 +695,4 @@ header .content #hero {
     left: 180px;
   }
 }
+
