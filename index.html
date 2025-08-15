@@ -89,9 +89,9 @@
               src="Assets/logo-himich-boumedien.png"
               alt="Logo of Boumedien Himich, Frontend Developer"
           /></a>
-           <button id="hamburger">
-    <i class="ri-menu-line"></i>
-  </button>
+          <button id="hamburger">
+            <i class="ri-menu-line"></i>
+          </button>
           <ul id="nav-links">
             <li><a class="links" id="tran" href="#home">Home</a></li>
             <li><a class="links" href="#about">About</a></li>
@@ -101,9 +101,6 @@
           </ul>
         </nav>
       </div>
-      <div class="shape triangle"></div>
-      <div class="shape circle"></div>
-      <div class="shape square"></div>
       <div class="content">
         <div class="text">
           <p>
@@ -139,12 +136,16 @@
               class="btn1"
               >Download CV <i class="fa-solid fa-circle-arrow-down"></i
             ></a>
-            <a class="btn1" href="#contact">Call Me <i class="fa-solid fa-phone"></i></a>
+            <a class="btn1" href="#contact"
+              >Call Me <i class="fa-solid fa-phone"></i
+            ></a>
           </div>
         </div>
         <img src="Assets/photo.jpg" alt="Himich Boumedien" />
       </div>
     </header>
+    <div class="shape triangle"></div>
+    <div class="shape circle"></div>
     <main>
       <section id="about">
         <div class="container">
@@ -223,8 +224,6 @@
                 <p>Python</p>
               </div>
 
-              
-
               <div class="item">
                 <img
                   onclick="window.open('https://ar.wikipedia.org/wiki/%D8%AA%D9%84%D9%88%D9%86%D8%AF_%D8%B3%D9%8A_%D8%A5%D8%B3_%D8%A5%D8%B3', '_blank')"
@@ -234,7 +233,11 @@
                 <p>TailwindCSS</p>
               </div>
               <div class="item">
-                <img onclick="window.open('https://ar.wikipedia.org/wiki/%D8%BA%D9%8A%D8%AA_(%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC)', '_blank')" src="Assets/Git.svg" alt="Git">
+                <img
+                  onclick="window.open('https://ar.wikipedia.org/wiki/%D8%BA%D9%8A%D8%AA_(%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC)', '_blank')"
+                  src="Assets/Git.svg"
+                  alt="Git"
+                />
                 <img
                   onclick="window.open('https://ar.wikipedia.org/wiki/%D8%BA%D9%8A%D8%AA_%D9%87%D8%A7%D8%A8', '_blank')"
                   src="Assets/github.webp"
@@ -311,7 +314,7 @@
           <div class="form">
             <img src="Assets/contact.jpg" alt="Contact form illustration" />
             <form
-              action="https://formsubmit.io/send/boumedienhimich_etd@esgen.edu.dz"
+              action="https://formsubmit.co/boumedienhimich_etd@esgen.edu.dz"
               method="POST"
             >
               <input
@@ -342,40 +345,40 @@
       </section>
     </main>
     <footer id="footer">
-      <p>
-        &copy; 2025 | All rights reserved Crafted with passion.
-      </p>
+      <p>&copy; 2025 | All rights reserved Crafted with passion.</p>
     </footer>
     <script>
-     const hamburger = document.getElementById("hamburger");
-const navLinks = document.getElementById("nav-links");
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
 
-hamburger.addEventListener("click", () => {
-  navLinks.classList.toggle("show");
-});
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
 
+      document.querySelectorAll("#nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("show");
+        });
+      });
 
-document.querySelectorAll("#nav-links a").forEach(link => {
-  link.addEventListener("click", () => {
-    navLinks.classList.remove("show");
-  });
-});
-
-const btn3 = document.getElementById("btn-3");
-window.onscroll = function(){
-  if (scrollY>=400){
-    btn3.classList.add("show");}
-    else{
-      btn3.classList.remove("show");
-    }
-  }
-btn3.onclick = function(){
-  scroll({
-    left:0,top:0,behavior:"smooth"
-  })
-}
-document.addEventListener('contextmenu', event => event.preventDefault());
+      const btn3 = document.getElementById("btn-3");
+      window.onscroll = function () {
+        if (scrollY >= 400) {
+          btn3.classList.add("show");
+        } else {
+          btn3.classList.remove("show");
+        }
+      };
+      btn3.onclick = function () {
+        scroll({
+          left: 0,
+          top: 0,
+          behavior: "smooth",
+        });
+      };
+      document.body.addEventListener("contextmenu", (event) => {
+        event.preventDefault();
+      });
     </script>
   </body>
 </html>
-
