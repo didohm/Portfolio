@@ -612,7 +612,8 @@ header .navbar nav ul li .links:hover {
     z-index: 1000;
   }
   #nav-links {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
     flex-direction: column;
     gap: 10px;
     background-color: #fff;
@@ -628,6 +629,8 @@ header .navbar nav ul li .links:hover {
   }
   #nav-links.show {
     display: flex;
+    opacity: 1;
+    visibility: visible;
   }
 }
 @media (max-width: 528px) {
@@ -693,4 +696,5 @@ header .navbar nav ul li .links:hover {
     left: 180px;
   }
 }
+
 
