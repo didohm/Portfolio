@@ -283,7 +283,6 @@ header .navbar nav ul li .links:hover {
 }
 .btn1:hover {
   background-color: #3a5574;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 .text {
   margin: 5rem 0;
@@ -674,5 +673,6 @@ header .navbar nav ul li .links:hover {
     left: 180px;
   }
 }
+
 
 
