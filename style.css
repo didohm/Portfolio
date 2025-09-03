@@ -130,11 +130,14 @@ header .navbar nav ul li .links:hover {
   border-radius: 50%;
   padding: 4px;
   background: linear-gradient(90deg, #00cfff, #002b5c);
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
   background-size: 200% 200%;
   animation: gradientMove 2s ease infinite;
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2),
     3px 3px 20px rgba(0, 207, 255, 0.6);
+}
+.content img:hover {
+  transform: scale(0.95);
 }
 @keyframes gradientMove {
   0% {
