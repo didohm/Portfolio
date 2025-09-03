@@ -525,9 +525,6 @@ header .navbar nav ul li .links:hover {
     grid-template-columns: 1fr;
     row-gap: 3rem;
   }
-  .title {
-    font-size: 20px;
-  }
   .row,
   #services .row1 {
     grid-template-columns: repeat(2, 1fr);
