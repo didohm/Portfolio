@@ -275,7 +275,7 @@ header .navbar nav ul li .links:hover {
   padding: 10px 15px;
   margin-top: 10px;
   margin-right: 10px;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -674,4 +674,5 @@ header .navbar nav ul li .links:hover {
     left: 180px;
   }
 }
+
 
