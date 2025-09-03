@@ -109,8 +109,7 @@ header .navbar nav ul li .links:hover {
   white-space: nowrap;
 }
 #logo {
-  object-fit: cover;
-  width: 55px;
+  width: 3rem;
 }
 .content-info {
   background-color: var(--bg);
@@ -130,14 +129,16 @@ header .navbar nav ul li .links:hover {
   border-radius: 50%;
   padding: 4px;
   background: linear-gradient(90deg, #00cfff, #002b5c);
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
   background-size: 200% 200%;
   animation: gradientMove 2s ease infinite;
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2),
     3px 3px 20px rgba(0, 207, 255, 0.6);
 }
 .content img:hover {
-  transform: scale(0.95);
+  transform: scale(1.05);
+  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.3),
+    5px 5px 25px rgba(0, 207, 255, 0.8);
 }
 @keyframes gradientMove {
   0% {
@@ -152,13 +153,9 @@ header .navbar nav ul li .links:hover {
 }
 .text-primary {
   color: var(--secondary);
-  font-weight: 700;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 .text-secondary {
   color: var(--primary);
-  font-weight: 700;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 .content p span {
   font-weight: 700;
@@ -194,6 +191,11 @@ header .navbar nav ul li .links:hover {
   background-color: var(--primary);
 
   cursor: pointer;
+}
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 .about-info {
   font-size: 20px;
@@ -314,37 +316,11 @@ header .navbar nav ul li .links:hover {
 #about .about-content {
   margin-top: 4rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 7rem;
+  grid-template-columns: 1.5fr 1fr;
+  column-gap: 5rem;
   align-items: center;
 }
-#about .about-content .col1 h3 {
-  font-size: 28px;
-  background: linear-gradient(
-    270deg,
-    var(--gray),
-    var(--secondary),
-    var(--gray)
-  );
-  background-size: 200% auto;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textGradientMove 2.7s ease infinite;
-  margin-bottom: 20px;
-}
 
-@keyframes textGradientMove {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 #about .about-content .col1 p {
   color: var(--gray);
   margin-bottom: 20px;
@@ -549,6 +525,9 @@ header .navbar nav ul li .links:hover {
     grid-template-columns: 1fr;
     row-gap: 3rem;
   }
+  .title {
+    font-size: 20px;
+  }
   .row,
   #services .row1 {
     grid-template-columns: repeat(2, 1fr);
@@ -617,7 +596,7 @@ header .navbar nav ul li .links:hover {
 }
 @media (max-width: 528px) {
   #home .content h1 {
-    font-size: 35px;
+    font-size: 40px;
   }
   .content {
     grid-template-columns: 1fr;
@@ -654,10 +633,6 @@ header .navbar nav ul li .links:hover {
   .col2 {
     font-size: 15px;
   }
-
-  #logo {
-    width: 50px;
-  }
   .circle {
     width: 35px;
     height: 35px;
@@ -673,6 +648,3 @@ header .navbar nav ul li .links:hover {
     left: 180px;
   }
 }
-
-
-
