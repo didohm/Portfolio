@@ -133,11 +133,8 @@ header .navbar nav ul li .links:hover {
   transition: all 0.5s ease;
   background-size: 200% 200%;
   animation: gradientMove 2s ease infinite;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 207, 255, 0.4);
-}
-.content img:hover {
-  transform: scale(0.95);
-  box-shadow: 4px 4px 20px rgba(0, 207, 255, 0.6);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2),
+    3px 3px 20px rgba(0, 207, 255, 0.6);
 }
 @keyframes gradientMove {
   0% {
@@ -152,6 +149,12 @@ header .navbar nav ul li .links:hover {
 }
 .text-primary {
   color: var(--secondary);
+  font-weight: 700;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.text-secondary {
+  color: var(--primary);
+  font-weight: 700;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 .content p span {
@@ -201,17 +204,17 @@ header .navbar nav ul li .links:hover {
   white-space: nowrap;
   border-right: 2px solid #002b5c;
   width: 0;
-  animation: typing 6s steps(16) infinite, blink 0.7s step-end infinite;
+  animation: typing 5s steps(13) infinite, blink 0.6s step-end infinite;
 }
 @keyframes typing {
   0% {
     width: 0;
   }
   40% {
-    width: 16ch;
+    width: 13ch;
   }
   70% {
-    width: 16ch;
+    width: 13ch;
   }
   100% {
     width: 0;
@@ -309,8 +312,8 @@ header .navbar nav ul li .links:hover {
 #about .about-content {
   margin-top: 4rem;
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  column-gap: 3rem;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 7rem;
   align-items: center;
 }
 #about .about-content .col1 h3 {
@@ -525,14 +528,16 @@ header .navbar nav ul li .links:hover {
   #home .navbar nav ul a {
     margin: 0 10px;
   }
-  header .content img {
-    max-width: 280px;
-  }
   #home .content h1 {
     font-size: 50px;
   }
   .content {
     grid-template-columns: 1fr;
+  }
+  .content img {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 3.5rem;
   }
   #contact .form {
     grid-template-columns: 1fr;
@@ -612,15 +617,10 @@ header .navbar nav ul li .links:hover {
   #home .content h1 {
     font-size: 35px;
   }
-  .content p span,
-  .content .title {
-    font-size: 18px;
-  }
   .content {
     grid-template-columns: 1fr;
   }
   .content img {
-    max-width: 280px;
     margin: auto;
     margin-top: 3.5rem;
   }
