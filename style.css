@@ -430,7 +430,7 @@ header .navbar nav ul li .links:hover {
   column-gap: 2rem;
 }
 #contact .form img {
-  max-width: 400px;
+  width: 400px;
 }
 #contact .form input,
 #contact .form textarea {
@@ -508,7 +508,7 @@ header .navbar nav ul li .links:hover {
     grid-template-columns: 1fr;
   }
   .content img {
-    max-width: 300px;
+    max-width: 280px;
     margin: auto;
     margin-top: 3.5rem;
   }
