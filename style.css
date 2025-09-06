@@ -110,8 +110,7 @@ header .navbar nav ul li .links:hover {
 }
 .logo{
   color: #002b5c;
-  font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .content-info {
   background-color: var(--bg);
