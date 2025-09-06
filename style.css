@@ -508,7 +508,7 @@ header .navbar nav ul li .links:hover {
     grid-template-columns: 1fr;
   }
   .content img {
-    max-width: 250px;
+    max-width: 300px;
     margin: auto;
     margin-top: 3.5rem;
   }
