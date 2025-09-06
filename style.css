@@ -362,7 +362,7 @@ header .navbar nav ul li .links:hover {
 .row .item {
   color: #fff;
   background-color: #000;
-  margin: 20px 0;
+  margin: 20px;
   padding: 1rem;
   border-radius: 10px;
   font-size: 18px;
