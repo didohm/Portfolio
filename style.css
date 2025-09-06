@@ -86,7 +86,7 @@ header .navbar nav {
   align-items: center;
   max-width: 1100px;
   margin: auto;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
 }
 header .navbar nav ul {
   display: flex;
@@ -110,6 +110,7 @@ header .navbar nav ul li .links:hover {
 }
 .logo{
   color: #002b5c;
+  font-size: 24px;
   font-weight: 700;
 }
 .content-info {
@@ -491,6 +492,9 @@ header .navbar nav ul li .links:hover {
   }
   #my-pic {
     text-align: center;
+  }
+  .logo {
+    font-size: 18px;
   }
   #home .navbar nav {
     display: block;
