@@ -134,12 +134,7 @@ header .navbar nav ul li .links:hover {
   animation: gradientMove 2s ease infinite;
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2),
     3px 3px 20px rgba(0, 207, 255, 0.6);
-}
-.content img:hover {
-  transform: scale(1.05);
-  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.3),
-    5px 5px 25px rgba(0, 207, 255, 0.8);
-}
+}
 @keyframes gradientMove {
   0% {
     background-position: 0% 50%;
@@ -340,6 +335,7 @@ header .navbar nav ul li .links:hover {
 }
 #esgen {
   width: 23px;
+  border-radius: 50%;
   margin-left: 8px;
   vertical-align: middle;
 }
@@ -512,8 +508,7 @@ header .navbar nav ul li .links:hover {
   .content {
     grid-template-columns: 1fr;
   }
-  .content img {
-    max-width: 300px;
+  .content img {
     margin: auto;
     margin-top: 3.5rem;
   }
