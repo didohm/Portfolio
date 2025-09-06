@@ -108,8 +108,9 @@ header .navbar nav ul li .links:hover {
 #wrap {
   white-space: nowrap;
 }
-#logo {
-  width: 3rem;
+.logo{
+  color: #002b5c;
+  font-size: 36px;
 }
 .content-info {
   background-color: var(--bg);
