@@ -127,7 +127,7 @@ header .navbar nav ul li .links:hover {
 }
 .content img {
   max-width: 320px;
-  border-radius: 50%;
+  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
   padding: 4px;
   background: linear-gradient(90deg, #00cfff, #002b5c);
   transition: all 0.5s ease;
