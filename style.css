@@ -373,7 +373,7 @@ header .navbar nav ul li .links:hover {
   transition: all 0.7s ease;
 }
 .row .item:hover {
-  border: 3px solid var(--bg);
+  border: 2px solid var(--bg);
   box-shadow: 5px 5px 10px var(--secondary);
 }
 #services {
