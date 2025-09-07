@@ -549,8 +549,7 @@ header .navbar nav ul li .links:hover {
   }
   #menuBtn,
   #menuBtnClose {
-    display: block;
-    position: absolute;
+    display: block;
     z-index: 1000;
     transition: 0.2s;
   }
