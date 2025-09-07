@@ -493,17 +493,13 @@ header .navbar nav ul li .links:hover {
   #my-pic {
     text-align: center;
   }
-  .logo {
-    font-size: 18px;
-  }
   #nav-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   }
   #home .navbar nav {
-    display: block;
-    padding: 1rem 2rem;
+    display: block;
   }
   #home .navbar ul {
     margin-top: 20px;
