@@ -373,8 +373,8 @@ header .navbar nav ul li .links:hover {
   transition: all 0.7s ease;
 }
 .row .item:hover {
-  border: 2px solid var(--bg);
-  box-shadow: 5px 5px 10px var(--secondary);
+  border: 1px solid var(--bg);
+  box-shadow: 2px 5px 10px var(--secondary);
 }
 #services {
   background-color: #00cfff0c;
