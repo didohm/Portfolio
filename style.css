@@ -111,7 +111,7 @@ header .navbar nav ul li .links:hover {
 .logo{
   color: #002b5c;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
 }
 .content-info {
   background-color: var(--bg);
@@ -549,7 +549,10 @@ header .navbar nav ul li .links:hover {
   }
   #menuBtn,
   #menuBtnClose {
-    display: block;
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 20px;
     z-index: 1000;
     transition: 0.2s;
   }
@@ -571,7 +574,7 @@ header .navbar nav ul li .links:hover {
     background-color: #fff;
     position: absolute;
     font-size: 17px;
-    top: 60px;
+    top: 70px;
     z-index: 1;
     right: 0;
     width: 100%;
