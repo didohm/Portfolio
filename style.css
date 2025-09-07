@@ -496,6 +496,11 @@ header .navbar nav ul li .links:hover {
   .logo {
     font-size: 18px;
   }
+  #nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
   #home .navbar nav {
     display: block;
     padding: 1rem 2rem;
