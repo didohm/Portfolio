@@ -441,13 +441,20 @@ header .navbar nav ul li .links:hover {
 #contact .form textarea {
   display: block;
   width: 100%;
-  margin: 25px 0;
+  margin: 12px 0;
   padding: 10px;
   outline: none;
   background: #00cfff0c;
   border: 1px solid #bbb;
   border-radius: 2px;
   transition: border 0.1s ease;
+}
+#contact .form textarea {
+  height: 157px;
+  resize: none;
+}
+#contact .form label {
+  color: var(--gray);
 }
 #contact .form input:focus,
 #contact .form textarea:focus {
