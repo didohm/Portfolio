@@ -430,7 +430,7 @@ header .navbar nav ul li .links:hover {
   grid-template-columns: repeat(2, 1fr);
   background: #fff;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
-  padding: 3rem;
+  padding: 5rem 3rem;
   border-radius: 5px;
   column-gap: 2rem;
 }
@@ -441,17 +441,13 @@ header .navbar nav ul li .links:hover {
 #contact .form textarea {
   display: block;
   width: 100%;
-  margin: 12px 0;
+  margin: 5px 0;
   padding: 10px;
   outline: none;
   background: #00cfff0c;
   border: 1px solid #bbb;
   border-radius: 2px;
   transition: border 0.1s ease;
-}
-#contact .form textarea {
-  height: 157px;
-  resize: none;
 }
 #contact .form label {
   color: var(--gray);
@@ -660,3 +656,4 @@ header .navbar nav ul li .links:hover {
     left: 180px;
   }
 }
+
