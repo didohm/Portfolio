@@ -449,9 +449,6 @@ header .navbar nav ul li .links:hover {
   border-radius: 2px;
   transition: border 0.1s ease;
 }
-#contact form {
-  margin: 10px;
-}
 #contact .form label {
   color: var(--gray);
 }
@@ -659,5 +656,6 @@ header .navbar nav ul li .links:hover {
     left: 180px;
   }
 }
+
 
 
