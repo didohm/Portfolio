@@ -457,6 +457,7 @@ header .navbar nav ul li .links:hover {
   border: 1.5px solid var(--secondary);
 }
 #contact .form .contact {
+  display: flex;
   margin: 15px 0;
 }
 #footer {
@@ -659,6 +660,7 @@ header .navbar nav ul li .links:hover {
     left: 180px;
   }
 }
+
 
 
 
