@@ -19,7 +19,8 @@ body {
 h1,
 h2 {
   font-family: "Saira", sans-serif;
-}
+}
+
 ul {
   list-style: none;
 }
@@ -32,7 +33,7 @@ header {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
   padding: 0 1rem;
 }
@@ -84,7 +85,7 @@ header .navbar nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
   padding: 1.5rem 1rem;
 }
@@ -117,16 +118,17 @@ header .navbar nav ul li .links:hover {
   background-color: var(--bg);
 }
 .content {
-  display: grid;
+  display: grid;
+
   grid-template-columns: 1.5fr 1fr;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   height: 100%;
   align-items: center;
   padding: 6rem 1rem;
 }
 .content img {
-  max-width: 320px;
+  max-width: 350px;
   border-radius: 50%;
   padding: 4px;
   background: linear-gradient(90deg, #00cfff, #002b5c);
@@ -135,7 +137,8 @@ header .navbar nav ul li .links:hover {
   animation: gradientMove 2s ease infinite;
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2),
     3px 3px 20px rgba(0, 207, 255, 0.6);
-}
+}
+
 @keyframes gradientMove {
   0% {
     background-position: 0% 50%;
@@ -499,7 +502,8 @@ header .navbar nav ul li .links:hover {
   justify-content: space-between;
   }
   #home .navbar nav {
-    display: block;
+    display: block;
+
   }
   #home .navbar ul {
     margin-top: 20px;
@@ -531,7 +535,8 @@ header .navbar nav ul li .links:hover {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
   }
-  #contact .form img {
+  #contact .form img {
+
     margin: auto;
   }
   #about {
@@ -645,3 +650,4 @@ header .navbar nav ul li .links:hover {
     left: 180px;
   }
 }
+
