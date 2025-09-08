@@ -430,7 +430,7 @@ header .navbar nav ul li .links:hover {
   grid-template-columns: repeat(2, 1fr);
   background: #fff;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
-  padding: 5rem 3rem;
+  padding: 3rem;
   border-radius: 5px;
   column-gap: 2rem;
 }
@@ -448,6 +448,9 @@ header .navbar nav ul li .links:hover {
   border: 1px solid #bbb;
   border-radius: 2px;
   transition: border 0.1s ease;
+}
+#contact form {
+  margin: 10px;
 }
 #contact .form label {
   color: var(--gray);
@@ -656,4 +659,5 @@ header .navbar nav ul li .links:hover {
     left: 180px;
   }
 }
+
 
