@@ -118,8 +118,7 @@ header .navbar nav ul li .links:hover {
   background-color: var(--bg);
 }
 .content {
-  display: grid;
-
+  display: grid;
   grid-template-columns: 1.5fr 1fr;
   max-width: 1100px;
   margin: 0 auto;
@@ -527,7 +526,8 @@ header .navbar nav ul li .links:hover {
   .content img {
     max-width: 300px;
     margin: auto;
-    margin-top: 3.5rem;
+    grid-row: 1; 
+    margin-bottom: 2rem;
   }
   #contact .form {
     grid-template-columns: 1fr;
