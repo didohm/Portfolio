@@ -441,7 +441,7 @@ header .navbar nav ul li .links:hover {
 #contact .form textarea {
   display: block;
   width: 100%;
-  margin: 5px 0;
+  margin: 20px 0;
   padding: 10px;
   outline: none;
   background: #00cfff0c;
@@ -449,17 +449,9 @@ header .navbar nav ul li .links:hover {
   border-radius: 2px;
   transition: border 0.1s ease;
 }
-#contact .form label {
-  color: var(--gray);
-}
 #contact .form input:focus,
 #contact .form textarea:focus {
   border: 1.5px solid var(--secondary);
-}
-#contact .form .contact {
-  display: flex;
-  align-items: center;
-  margin: 15px 0;
 }
 #footer {
   background: #222;
@@ -661,6 +653,7 @@ header .navbar nav ul li .links:hover {
     left: 180px;
   }
 }
+
 
 
 
