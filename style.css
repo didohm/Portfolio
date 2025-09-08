@@ -35,7 +35,7 @@ header {
 .container {
   max-width: 1100px;
   margin: auto;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 .shape {
   position: absolute;
@@ -109,7 +109,7 @@ header .navbar nav ul li .links:hover {
 #wrap {
   white-space: nowrap;
 }
-.logo{
+.logo {
   color: #002b5c;
   font-size: 24px;
   font-weight: 700;
@@ -497,13 +497,12 @@ header .navbar nav ul li .links:hover {
     text-align: center;
   }
   #nav-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   #home .navbar nav {
     display: block;
-
   }
   #home .navbar ul {
     margin-top: 20px;
@@ -514,11 +513,12 @@ header .navbar nav ul li .links:hover {
   #home .content h1 {
     font-size: 50px;
   }
+
   .content {
     grid-template-columns: 1fr;
   }
   .content img {
-    max-width: 280px;
+    max-width: 300px;
     margin: auto;
     margin-top: 3.5rem;
   }
@@ -536,7 +536,6 @@ header .navbar nav ul li .links:hover {
     justify-content: center;
   }
   #contact .form img {
-
     margin: auto;
   }
   #about {
@@ -604,8 +603,12 @@ header .navbar nav ul li .links:hover {
     grid-template-columns: 1fr;
   }
   .content img {
+    max-width: 280px;
     margin: auto;
     margin-top: 3.5rem;
+  }
+  .container {
+    padding: 0 1rem;
   }
   .text {
     margin-bottom: 0;
@@ -650,4 +653,3 @@ header .navbar nav ul li .links:hover {
     left: 180px;
   }
 }
-
