@@ -458,6 +458,7 @@ header .navbar nav ul li .links:hover {
 }
 #contact .form .contact {
   display: flex;
+  align-items: center;
   margin: 15px 0;
 }
 #footer {
@@ -660,6 +661,7 @@ header .navbar nav ul li .links:hover {
     left: 180px;
   }
 }
+
 
 
 
