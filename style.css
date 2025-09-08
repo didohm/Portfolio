@@ -456,6 +456,9 @@ header .navbar nav ul li .links:hover {
 #contact .form textarea:focus {
   border: 1.5px solid var(--secondary);
 }
+#contact .form form {
+  margin: 20px 0;
+}
 #footer {
   background: #222;
   color: #fff;
@@ -656,6 +659,7 @@ header .navbar nav ul li .links:hover {
     left: 180px;
   }
 }
+
 
 
 
