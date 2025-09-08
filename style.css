@@ -528,6 +528,7 @@ header .navbar nav ul li .links:hover {
     max-width: 300px;
     margin: auto;
     margin-top: 3.5rem;
+    order: -1;
   }
   #contact .form {
     grid-template-columns: 1fr;
